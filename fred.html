@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/0454434f54.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+        img{
+        height:60px;
+        width:60px;
+        border-radius: 200px;
+    }
+        .chat{
+       height:148vh;
+      width:60vw; 
+      position:absolute;
+      left:3px;
+      top:8px;
+      /* overflow-y: scroll; */
+    }
+    .profile1{
+      border:1px solid black;
+      height:8vh;
+      width:96vw;
+    }
+    .profile2{
+      border:1px solid black;
+      height:60px;
+      width:60px;
+      border-radius: 320px;
+      margin:10px;
+    }
+    .prof1name{
+      position:relative;
+      top:-65px;
+      left:80px;
+    }
+    .bio2{
+      position:relative;
+      top:-70px;
+      left:80px;
+    }
+    .icon1,#video,#call,#menu1{
+      position:relative;
+      top:-60px;
+      left:350px;
+    }
+    #call{
+      left:500px;
+    }
+    #menu1{
+      left:550px;
+    }
+    #video{
+        left:450px;
+    }
+    .sticky{
+      border:1px solid black;
+      height:20px;
+      margin:10px; 
+      top:20px;
+      width:8vw;
+      position: sticky;
+      left:370px;
+      text-align: center;
+      padding:15px;
+      z-index: -1;
+      background-color: rgba(0, 0, 0, 0.664);
+      color:white;
+    }
+    .msg2{
+      border:1px solid black;
+      height:25px;
+      width:250px;
+      margin:10px;
+      border-radius: 100px;
+      padding:10px;
+      left:550px;
+      position:relative;
+      z-index: -1;
+    }
+    .time2{
+      position:relative;
+      top:-20px;
+      left:180px;
+    }
+    .msg1{
+      border:1px solid black;
+      height:25px;
+      width:250px;
+      margin:10px;
+      border-radius: 100px;
+      padding:10px;
+    }
+    .time1{
+      position:relative;
+      top:-20px;
+      left:180px;
+    }
+    .search1{
+      border:1px solid black;
+      height:50px;
+      width:800px;
+      margin:10px;
+      border-radius: 100px;
+    }
+    #smile{
+      position: relative;
+      top:50px;
+      left:40px;
+    }
+    #plus{
+      position:relative;
+      top:50px;
+      left:60px;
+    }
+    #mic{
+      position: relative;
+      top:-60px;
+      left:800px;
+    }
+    .type{
+      position:relative;
+      top:-20px;
+      left:120px;
+      font-size: 20px;
+    }
+    #tue{
+        z-index: -3;
+    }
+    #wed{
+        z-index:-2;
+
+    }
+    #yes{
+        z-index:-1;
+    }
+    input{
+        margin:10px;
+        width:80vw;
+        height:6vh;
+        border-radius: 150px;
+        text-indent: 120px;
+        font-size:20px;
+    }
+    .msg1{
+        background-color: rgba(144, 238, 144, 0.526);
+    }
+    .msg2{
+        background-color: rgba(144, 238, 144, 0.526);
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="chat">
+    <div class="profile1">
+      <div class="profile2"><img src="./chatimages/fred.jpeg"/></div>
+      <p class="prof1name">Fred</p>
+      <p class="bio2">last seen today at 10:30 am </p>
+      <div class="icon1">
+      <i  id="video" title="video" class="fa-solid fa-video fa-xl"></i>
+      <i id="call" title="call" class="fa-solid fa-phone fa-xl"></i>
+      <i id="menu1" title="menu" class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+    </div>
+    </div>
+    <div class="sticky" id="tue">tuesday</div>
+    <div class="msg1">hey Hai!
+      <p class="time1">7:10 pm</p>
+    </div>
+      <div class="msg2">hey Hai!
+        <p class="time2">7:11 pm</p>
+    </div>
+    <div class="msg1">How Are you?
+      <p class="time1">7:10 pm</p>
+    </div>
+      <div class="msg2">Good !
+        <p class="time2">7:11 pm</p>
+    </div>
+    <div class="msg1">What are doing?
+      <p class="time1">7:10 pm</p>
+    </div>
+      <div class="msg2">Nothing and what about you?
+        <p class="time2">7:11 pm</p>
+    </div>
+    <div class="msg1">Nothing and Fine!
+      <p class="time1">7:10 pm</p>
+    </div>
+      <div class="msg2">okk byee!
+        <p class="time2">7:11 pm</p>
+    </div>
+    <div class="sticky" id="wed">wednesday</div>
+    <div class="msg1">Good morning Darling.
+      <p class="time1">7:10 am</p>
+    </div>
+      <div class="msg2">very good morning
+        <p class="time2">7:11 am</p>
+    </div>
+    <div class="msg1">are yoou free today?
+      <p class="time1">7:10 am</p>
+    </div>
+      <div class="msg2">yeah! and why?
+        <p class="time2">7:11 am</p>
+    </div>
+    <div class="msg1">we will meet at coffee shop.?
+      <p class="time1">7:10 am</p>
+    </div>
+      <div class="msg2">okk done!
+        <p class="time2">7:11 pm</p>
+    </div>
+    <div class="sticky" id="yes">yesterday</div>
+    <div class="msg1"> hey!why are you not intersted to meet me?
+      <p class="time1">7:10 am</p>
+    </div>
+      <div class="msg2">sorry!I have some work Yesterday.
+        <p class="time2">7:11 am</p>
+    </div>
+    <div class="msg1">don't do that again.
+      <p class="time1">7:10 am</p>
+    </div>
+      <div class="msg2">i'm sorry!
+        <p class="time2">7:11 am</p>
+    </div>
+    <div class="msg1">okk byee
+      <p class="time1">7:10 pm</p>
+    </div>
+      <div class="msg2">byee
+        <p class="time2">7:11 pm</p>
+    </div>
+    <div class="sticky" id="tod">today</div>
+    <div class="msg1">hey Hai!
+      <p class="time1">7:10 pm</p>
+    </div>
+      <div class="msg2">hey Hai!
+        <p class="time2">7:11 pm</p>
+    </div>
+    <div class="msg1">are you free now?
+      <p class="time1">7:10 pm</p>
+    </div>
+      <div class="msg2">yes
+        <p class="time2">7:11 pm</p>
+    </div>
+    <div class="msg1">can i call?
+      <p class="time1">7:10 pm</p>
+    </div>
+      <div class="msg2">okk!
+        <p class="time2">7:11 pm</p>
+    </div>
+    <div class="msg1">did you complete your dinner?
+      <p class="time1">9:10 pm</p>
+    </div>
+      <div class="msg2">yeah! and you?
+        <p class="time2">9:11 pm</p>
+    </div>
+    <div class="msg1">i'm also
+      <p class="time1">9:10 pm</p>
+    </div>
+      <div class="msg2">what are you doing?
+        <p class="time2">9:11 pm</p>
+    </div>
+    <div class="msg1">nothing
+      <p class="time1">7:10 pm</p>
+    </div>
+      <div class="msg2">i have somework call u later!
+        <p class="time2">7:11 pm</p>
+    </div>
+    <i id="smile" title="emojis" class="fa-regular fa-face-laugh fa-xl"></i>
+    <i id="plus" title="add files" class="fa-solid fa-plus fa-xl"></i>
+    <input type="text" placeholder="type a message..">
+    <i id="mic" title="mic" class="fa-solid fa-microphone fa-xl"></i>
+  
+</body>
+</html>

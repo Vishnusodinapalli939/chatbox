@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/0454434f54.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+        .side-bar{
+      border:1px solid black;
+      height:148vh;
+      width:30vw;
+    }
+    img{
+        height:60px;
+        width:60px;
+        border-radius: 200px;
+    }
+    .top{
+      border:1px solid black;
+      height:10vh;
+      width:28vw;
+      margin:10px;
+      position:relative;
+    }
+    .profile{
+      border:1px solid black;
+      height:8vh;
+      width:4vw;
+      margin:10px;
+      border-radius:320px;
+      position:relative;
+      display:flex;
+    }
+    .icons,i{
+      left:30px;
+      position:absolute;
+    }
+    #com{
+      left:100px;
+      top:-40px;
+    }
+    #sta{
+      left:180px;
+      top:-40px;
+    }
+    #add{
+      left:240px;
+      top:-40px;
+    }
+    #me{
+      left:320px;
+      top:-40px;
+    }
+    .search{
+      border:1px solid black;
+      height:30px;
+      margin:10px;
+      border-radius: 10px;
+    }
+    p{
+      position:relative;
+      left:20px;
+      top:-4px;
+    }
+    .text{
+      position:relative;
+      top:-63px;
+      left:60px;
+      font-size:20px;
+    }
+    .info{
+      position:relative;
+      top:8px;
+    }
+    .all{
+      border:1px solid black;
+      height:30px;
+      width:30px;
+      border-radius:300px ;
+      position:absolute;
+      left:30px;
+      text-align:center;
+      
+    }
+    .unread{
+      border:1px solid black;
+      height:30px;
+      width:70px;
+      border-radius:300px ;
+      position:absolute;
+      left:90px;
+      text-align: center;
+      
+    }
+    .group{
+      border:1px solid black;
+      height:30px;
+      width:70px;
+      border-radius:300px ;
+      position:absolute;
+      left:200px;
+      text-align:center;
+    }
+    .hori{
+      position:relative;
+      top:50px;
+    }
+    .chat1{
+      border:1px solid black;
+      height:10vh;
+      position:relative;
+      top:40px;
+    }
+    .prof{
+      border:1px solid black;
+      height:60px;
+      width:60px;
+      margin:10px;
+      position:relative;
+      border-radius: 320px;
+    }
+    .proname{
+      position:relative;
+      left:80px;
+      top:-70px;
+      white-space: nowrap;
+    }.bio{
+      position:relative;
+      left:80px;
+      top:-70px;
+      white-space: nowrap;
+    }
+    .time{
+      position:relative;
+      left:360px;
+      top:-130px;
+    }
+    .chat1:hover{
+        background-color: rgba(0, 0, 0, 0.369);
+    }
+    iframe{
+      position:absolute;
+      left:460px;
+      top:8px;
+      border:1px solid black;
+      width:70vw;
+      height:148vh;
+    }
+    a{
+      text-decoration: none;
+      color:black;
+    }
+    .all:hover{
+      background-color: darkgrey;
+    }
+    .unread:hover{
+      background-color: darkgrey;
+    }
+    .group:hover{
+      background-color: darkgrey;
+    }
+    .search:hover{
+      background-color: darkgrey;
+    }
+    
+    
+   
+    </style>
+</head>
+<body>
+    <div class="side-bar">
+        <div class="top">
+          <div class="profile"><img src="./chatimages/bean.jpeg"/> </div>
+            <div class="icons">
+              <i id="com" title="communities" class="fa-solid fa-users fa-xl"></i>
+              <i id="sta" title="status" class="fa fa-bullseye fa-xl"></i>
+              <i id="add" title="new chat" class="fa-regular fa-square-plus fa-xl"></i>
+              <i id="me" title="menu" class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+            </div>
+        </div>
+        <div class="search">
+            <p id="sea" class="fa-solid fa-magnifying-glass fa-ml">
+              <pre class="text">Search</pre>
+            </p>
+          </div>
+          <div class="info">
+            <div class="all">all</div>
+            <div class="unread">unread</div>
+            <div class="group">group</div>
+          </div>
+          <hr class="hori">
+          <div class="chat1">
+            <div class="prof"><img src="./chatimages/tom and jerry.jpeg"/></div>
+              <p class="proname"><a href="./tom and jerry.html" target="chat">Tom&jerry</a></p>
+              <p class="bio">Jerry:hey!Tom</p>
+              <p class="time">9:52 am</p>
+          </div>
+          <div class="chat1">
+            <div class="prof"><img src="./chatimages/mickey.jpeg"/></div>
+              <p class="proname"><a href="./mickey.html" target="chat">Mickey</a></p>
+              <p class="bio">mickey:How are you?</p>
+              <p class="time">7:10 am</p>
+          </div>
+          <div class="chat1">
+            <div class="prof"><img src="./chatimages/charlie.jpeg"/> </div>
+              <p class="proname"><a href="./charlie.html" target="chat">Charlie</a></p>
+              <p class="bio">james:hey!are you there</p>
+              <p class="time">Yesterday</p>
+          </div>
+          <div class="chat1">
+            <div class="prof"><img src="./chatimages/bugs.jpeg"/></div>
+              <p class="proname"><a href="./bugs.html" target="chat">Bugs</a></p>
+              <p class="bio">bunny:Love the life you live</p>
+              <p class="time">Yesterday</p>
+          </div>
+          <div class="chat1">
+            <div class="prof"><img src="./chatimages/jerry.jpeg"/></div>
+              <p class="proname"><a href="./jerry.html" target="chat">Jerry</a></p>
+              <p class="bio">Tom:something for you</p>
+              <p class="time">yesterday</p>
+          </div>
+          <div class="chat1">
+            <div class="prof"><img src="./chatimages/pluto.png"/></div>
+              <p class="proname"><a href="./pluto.html" target="chat">Pluto</a></p>
+              <p class="bio">pam:can i get something?</p>
+              <p class="time">wednesday</p>
+          </div>
+          <div class="chat1">
+            <div class="prof"><img src="./chatimages/ben.jpeg"/></div>
+              <p class="proname"><a href="./ben.html" target="chat">Ben</a></p>
+              <p class="bio">jones:ok!can i call u later !</p>
+              <p class="time">wednesday</p>
+          </div>
+          <div class="chat1">
+            <div class="prof"><img src="./chatimages/oggy.jpeg"/></div>
+              <p class="proname"><a href="./oggy.html" target="chat">Oggy</a></p>
+              <p class="bio">cock:"never let yourself be defeated.”</p>
+              <p class="time">tuesday</p>
+          </div>
+          <div class="chat1">
+            <div class="prof"><img src="./chatimages/road runner.jpeg"/></div>
+              <p class="proname"><a href="./roadrunner.html" target="chat">Road Runner</a></p>
+              <p class="bio">alex:always a step ahead by escaping every time</p>
+              <p class="time">tuesday</p>
+          </div>
+          <div class="chat1">
+            <div class="prof"><img src="./chatimages/fred.jpeg"/></div>
+              <p class="proname"><a href="./fred.html" target="chat">Fred</a></p>
+              <p class="bio">fren:love for bowling, and unique laugh.</p>
+              <p class="time">tuesday</p>
+          </div>
+          <div class="chat1">
+            <div class="prof"><img src="./chatimages/betty.jpeg"/></div>
+              <p class="proname"><a href="./betty.html" target="chat">Betty</a></p>
+              <p class="bio">Boop: she was transformed into a French Poodle</p>
+              <p class="time">monday</p>
+          </div>
+          <div class="chat1">
+            <div class="prof"><img src="./chatimages/goffy.jpg"/></div>
+              <p class="proname"><a href="./goffy.html" target="chat">Goffy</a></p>
+              <p class="bio">cock:he is well-behaved and good-natured</p>
+              <p class="time">monday</p>
+          </div>
+        </div>
+      <iframe name="chat"></iframe>
+      
+      
+</body>
+</html>

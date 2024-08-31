@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/0454434f54.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        .main{
+            border:1px solid black;
+            /* height:70vh; */
+            width:30vw;
+            display:grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            gap:10px;
+            grid-template-rows: 50px;
+            border-radius: 30px;
+            background-color: rgba(128, 128, 128, 0.367);
+        }
+        .child{
+            border:1px solid black;
+            height:8vh;
+            width:4vw;
+            text-align: center;
+            margin:10px;  
+            border-radius: 320px;     
+        }
+        .child1{
+           grid-column-start: 1;
+           grid-column-end: 5;
+        }
+        .child2{
+            grid-column-start: 1;
+           grid-column-end: 5;
+        }
+        .text{
+            position:relative;
+            top:5px;
+        }
+        .ch3{
+            visibility: hidden;
+        }
+        .ch4{
+            position:relative;
+            left:330px;
+            height:8vh;
+            width:4vw;
+            text-align: center;
+            margin:10px; 
+        }
+        .ope{
+            font-size: 40px;
+            position:relative;
+            top:-60px;
+        }
+        .val{
+            font-size: 30px;
+            position:relative;
+            top:-90px;
+            left:20px;
+        }
+        .child3,.child4,.child5,.child6,.child10,.child14,.child18{
+            background-color: rgba(105, 105, 105, 0.607);
+        }
+        .child22{
+            background-color: darkorange;
+        }
+        .child:not(.child3,.child4,.child5,.child6,.child10,.child14,.child18,.child22){
+            background-color: white;
+        }
+        .child:hover:not(.child3,.child4,.child5,.child6,.child10,.child14,.child18,.child22){
+            background-color: aqua;
+        }
+        .child3:hover{
+            background-color:blue;
+        }
+        .child4:hover{
+            background-color:blue;
+        }
+        .child5:hover{
+            background-color:blue;
+        }
+        .child6:hover{
+            background-color:blue;
+        }
+        .child10:hover{
+            background-color:blue;
+        }
+        .child14:hover{
+            background-color:blue;
+        }
+        .child18:hover{
+            background-color:blue;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class=" child1 ch3">
+      </div>
+      <div class=" child2 ch4"><p class="ope">3+4</p>
+    <p class="val">7</p></div>
+      <div class="child child3"><p class="text">AC</p></div>
+      <div class="child child4"><p class="text"><i class="fa-light fa-percent fa-xl"></i></p></div>
+      <div class="child child5"><p class="text1"><ion-icon style="font-size:30px" name="backspace-outline"></ion-icon></p></div>
+      <div class="child child6"><p class="text"><i class="fa-solid fa-divide fa-xl"></i></p></div>
+      <div class="child child7"><p class="text1" style="font-size:20px">7</p></div>
+      <div class="child child8"><p class="text1" style="font-size:20px">8</p></div>
+      <div class="child child9"><p class="text1" style="font-size:20px">9</p></div>
+      <div class="child child10"><p class="text"><i class="fa-solid fa-xmark fa-xl"></i></p></div>
+      <div class="child child11"><p class="text1" style="font-size:20px">4</p></div>
+      <div class="child child12"><p class="text1" style="font-size:20px">5</p></div>
+      <div class="child child13"><p class="text1" style="font-size:20px">6</p></div>
+      <div class="child child14"><p class="text"><i class="fa-solid fa-minus fa-xl"></i></p></div>
+      <div class="child child15"><p class="text1" style="font-size:20px">1</p></div>
+      <div class="child child16"><p class="text1" style="font-size:20px">2</p></div>
+      <div class="child child17"><p class="text1" style="font-size:20px">3</p></div>
+      <div class="child child18"><p class="text"><i class="fa-solid fa-plus fa-xl"></i></p></div>
+      <div class="child child19"><p class="text1" style="font-size:20px">00</p></div>
+      <div class="child child20"><p class="text1" style="font-size:20px">0</p></div>
+      <div class="child child21"><p class="text1" style="font-size:20px">.</p></div>
+      <div class="child child22"><p class="text"><i class="fa-solid fa-equals fa-xl"></i></p></div>
+    </div>
+  </body>
+</html>
